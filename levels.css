@@ -57,7 +57,17 @@
 #level-7 .onions,
 #level-7 .tomatoes,
 #level-7 .lettuce,
-#level-7 .carrots {
+#level-7 .carrots,
+#level-8 .peas,
+#level-8 .onions,
+#level-8 .tomatoes,
+#level-8 .lettuce,
+#level-8 .carrots,
+#level-9 .peas,
+#level-9 .onions,
+#level-9 .tomatoes,
+#level-9 .lettuce,
+#level-9 .carrots {
   grid-area: auto;
 } 
 
@@ -66,19 +76,13 @@
   grid-template-columns: repeat(5, minmax(5ch, 1fr));
 }
 
-#level-8 .peas,
-#level-8 .onions,
-#level-8 .tomatoes,
-#level-8 .lettuce,
-#level-8 .carrots {
-  grid-area: auto;
-} 
-
 #level-8 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15ch, 1fr));
+  grid-template-columns: repeat(auto-fit, 15ch);
   grid-auto-rows: 5ch;
 }
+
+
 
 .peas {
   grid-area: peas;
