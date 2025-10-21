@@ -53,11 +53,31 @@
   "lettuce lettuce lettuce lettuce lettuce";
 }
 
+#level-7 .peas,
+#level-7 .onions,
+#level-7 .tomatoes,
+#level-7 .lettuce,
+#level-7 .carrots {
+  grid-area: auto;
+} 
+
 #level-7 {
   display: grid;
   grid-template-columns: repeat(5, minmax(5ch, 1fr));
-  grid-template-areas: 
-  "peas onions tomatoes lettuce carrots";
+}
+
+#level-8 .peas,
+#level-8 .onions,
+#level-8 .tomatoes,
+#level-8 .lettuce,
+#level-8 .carrots {
+  grid-area: auto;
+} 
+
+#level-8 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15ch, 1fr));
+  grid-auto-rows: 5ch;
 }
 
 .peas {
